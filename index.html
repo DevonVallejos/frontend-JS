@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blarmit | Programas y cursos Online</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="https://kit.fontawesome.com/106b645a8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a href="index.html" class="logoempresa">
+                <img class="imglogo" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 150' width='600' height='150'><defs><linearGradient id='g1' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%231e293b'/><stop offset='100%' stop-color='%230f172a'/></linearGradient></defs><g transform='translate(20, 10) scale(0.45)'><path d='M120 180 L150 120 L180 180 Z' fill='%23334155'/><path d='M135 180 L150 90 L165 180 Z' fill='%23475569'/><path d='M150 40 L50 240 L90 240 L115 190 L185 190 L210 240 L250 240 Z M130 160 L150 110 L170 160 Z' fill='url(%23g1)'/><path d='M170 190 L230 190 C250 190 260 205 260 220 C260 240 245 250 225 250 L160 250 L160 220 L220 220 L220 210 L170 210 Z' fill='%230f172a'/></g><g transform='translate(160, 50)'><text x='0' y='30' font-family='Arial, sans-serif' font-weight='900' font-size='36' fill='%230f172a' letter-spacing='4'>AXIOM GLOBAL</text><text x='0' y='55' font-family='Arial, sans-serif' font-weight='600' font-size='16' fill='%2364748b' letter-spacing='7'>REAL ESTATE</text></g></svg>" alt="Axiom Global Real Estate" width="250">
+            </a>
+            <nav>
+                <a href="#index">Propiedades</a>
+                <a href="#index">Sobre nosotros</a>
+                <a href="#index">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Encontrá el espacio perfecto<br>para tu próximo paso</h1>
+    </section>
+
+    <section class="formacion" id="formacion">
+        <div class="container">
+            <h2>Axiom Global</h2>
+            <h3>Gestión inmobiliaria integral, propiedades exclusivas y asesoramiento financiero personalizado a nivel global.</h3>
+            <div class="modos">
+                <div class="box">
+                    <h4>Comercialización de inmuebles</h4>
+                    <p>Vende o alquilá al mejor valor de mercado.</p>
+                </div>
+                <div class="box">
+                    <h4>Tasaciones profesionales</h4>
+                    <p>Informes de valoración precisos respaldados por análisis comparativos de mercado actualizados.</p>
+                </div>
+                <div class="box">
+                    <h4>Asesoramiento legal y financiero</h4>
+                    <p>Acompañamiento integral en contratos, escrituración y gestión de créditos o inversiones.</p>
+                </div>
+                <div class="box">
+                    <h4>Desarrollos de pozo</h4>
+                    <p>Acceso exclusivo a proyectos en pozo y emprendimientos urbanos de alto rendimiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2>Hablemos de tu próxima inversión</h2>
+                <p>Déjanos tu mensaje o visítanos en nuestras oficinas corporativas. Nuestro equipo te asesorará en todo momento.</p>
+            </div>
+            <div class="contacto-grid">
+                <div class="contact-form-card">
+                    <h3>Envíanos un mensaje</h3>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="fullname">Nombre completo</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Ej: Maria González" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="ejemplo@axiomglobal.com" required>
+                            </div>
+                            <div class="form-group">
+                            <label for="phone">Teléfono / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+54 11 1234 5678">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="reason">Motivo de consulta</label>
+                            <select id="reason" name="reason" required>
+                            <option value="" disabled selected>Seleccioná una opción...</option>
+                            <option value="comprar">Quiero comprar una propiedad</option>
+                            <option value="vender">Quiero vender/tasar mi propiedad</option>
+                            <option value="alquilar">Busco alquilar</option>
+                            <option value="inversion">Asesoramiento en proyectos e inversiones</option>
+                            <option value="otro">Otro motivo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Contanos brevemente qué estás buscando..." required></textarea>
+                        </div>
+                        <button type="submit" class="boton-submit">Enviar Consulta</button>
+                    </form>
+                </div>
+                <div class="contact-info-card">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-and-map-container">
+                        <ul class="info-list">
+                            <li>
+                            <span class="info-icon">📍</span>
+                                <div>
+                                    <strong>Oficina Central</strong>
+                                    <p>Av. del Libertador 2450, Piso 8<br>Buenos Aires, Argentina</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="info-icon">📞</span>
+                                <div>
+                                    <strong>Teléfono Directo</strong>
+                                    <p>+54 (11) 5555-8888</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="info-icon">✉️</span>
+                                <div>
+                                    <strong>Email Corporativo</strong>
+                                    <p>contacto@axiomglobal.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="info-icon">🕒</span>
+                                <div>
+                                    <strong>Horarios de Atención</strong>
+                                    <p>Lunes a Viernes: 09:00 - 18:00 hs<br>Sábados: 10:00 - 13:00 hs</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="map-wrapper">
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.9758223078423!2d-58.4022838!3d-34.5794828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb583ebbe2d65%3A0x6b2e1515bf6d0934!2sAv.%20del%20Libertador%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1710000000000!5m2!1ses!2sar" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="box">
+                <div class="footlogo">
+                    <figure>
+                        <a href="index.html" class="logoempresa">
+                            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 150' width='600' height='150'><defs><linearGradient id='g1' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%231e293b'/><stop offset='100%' stop-color='%230f172a'/></linearGradient></defs><g transform='translate(20, 10) scale(0.45)'><path d='M120 180 L150 120 L180 180 Z' fill='%23334155'/><path d='M135 180 L150 90 L165 180 Z' fill='%23475569'/><path d='M150 40 L50 240 L90 240 L115 190 L185 190 L210 240 L250 240 Z M130 160 L150 110 L170 160 Z' fill='url(%23g1)'/><path d='M170 190 L230 190 C250 190 260 205 260 220 C260 240 245 250 225 250 L160 250 L160 220 L220 220 L220 210 L170 210 Z' fill='%230f172a'/></g><g transform='translate(160, 50)'><text x='0' y='30' font-family='Arial, sans-serif' font-weight='900' font-size='36' fill='%230f172a' letter-spacing='4'>AXIOM GLOBAL</text><text x='0' y='55' font-family='Arial, sans-serif' font-weight='600' font-size='16' fill='%2364748b' letter-spacing='7'>REAL ESTATE</text></g></svg>" alt="Axiom Global Real Estate" width="250">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            <div class="box">
+                <div class="contacto">
+                    <h2>Contacto</h2>
+                    <ul class="icons">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="fa-regular fa-square-check"></i>
+                                <p>e-Mail</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=+56922447386&text=Hola, buen día, quiero más información sobre el curso de...">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <p>Whatsapp</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                                <p>Facebook</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                                <p>Instagram</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/es/" target="_blank">
+                                <i class="fa-brands fa-tiktok"></i>
+                                <p>TikTok</p> 
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box">
+                <div class="contacto">
+                    <h2>Seguinos en nuestras redes</h2>
+                    <ul class="icons">
+                        <li>
+                            <a href="index.html" target="_blank">
+                                <p>Terminos y condiciones</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" target="_blank">
+                                <p>Propiedades</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" target="_blank">
+                                <p>Matriculas</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" target="_blank">
+                                <p>Politicas de privacidad</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.html" target="_blank">
+                                <p>Terminos y condiciones</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="pie">
+            <p>&copy; 2026 -<b>Axiom Global Real Estate.</b>- All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
